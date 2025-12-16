@@ -1,0 +1,44 @@
+body { 
+    scroll-behavior: smooth; 
+}
+section { 
+    padding: 80px 0; 
+}
+.navbar-brand { 
+    font-weight: bold; 
+    font-size: 1.5rem; 
+}
+.fade-up { 
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: all 0.8s ease-in-out; 
+}
+.fade-up.show { 
+    opacity: 1; 
+    transform: translateY(0);
+}
+.project-card { 
+    transition: transform 0.3s; 
+    cursor: pointer; 
+}
+.project-card:hover { 
+    transform: scale(1.05); 
+}
+.project-card img { 
+    height: 200px; 
+    object-fit: cover; 
+}
+.circular-img { 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.skill-icon { 
+    font-size: 2rem; 
+}
+footer { 
+    background-color: #f8f9fa; 
+    padding: 20px 0; 
+    text-align: center; 
+}
