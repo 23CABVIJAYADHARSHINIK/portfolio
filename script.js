@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
 const roles = [
   'Frontend Developer',
   'Web Designer',
-  'Computer Science Student'
+  'Computer Application Student'
 ];
 
 let roleIndex = 0;
